@@ -1,0 +1,72 @@
+.filters-group-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-field {
+  border: 1px solid;
+  height: 30px;
+}
+.search-icon {
+  padding-top: 5px;
+  position: absolute;
+  margin-left: 150px;
+}
+
+.category-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+}
+
+.Button {
+  align-self: flex-start;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  color: #475569;
+  font-weight: bold;
+  cursor: pointer;
+}
+.rating-image {
+  width: 100px;
+  margin-top: 20px;
+}
+.flex-rating {
+  display: flex;
+  color: #475569;
+  font-weight: bold;
+}
+.clear-filter {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #0967d2;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.clear-button {
+  margin-top: 30px;
+}
+.category-list {
+  list-style-type: none;
+}
+.color {
+  color: #0967d2;
+}
