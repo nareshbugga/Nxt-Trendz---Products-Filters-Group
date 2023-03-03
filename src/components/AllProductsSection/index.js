@@ -114,8 +114,7 @@ class AllProductsSection extends Component {
         productsList: updatedData,
         listView: ViewsList.success,
       })
-    }
-    if (response.status === 401) {
+    } else {
       this.setState({
         listView: ViewsList.failure,
       })
